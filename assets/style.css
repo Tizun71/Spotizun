@@ -53,14 +53,11 @@ above{
 
 a{
     text-decoration: none;
+    color:white;
 }
 
 li{
     list-style-type:none;
-}
-
-a:visited{
-    color: white;
 }
 
 /* left side */
@@ -89,8 +86,8 @@ a:visited{
 #nav li{
     list-style-type:none;
     margin: 20px;
-    filter: brightness(50%);
     transition: 0.5s;
+    filter: brightness(50%);
 }
 
 #nav li:hover{
