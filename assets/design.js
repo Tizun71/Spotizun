@@ -46,29 +46,3 @@ function changeVolume(){
     }
 }
 
-var followButton = document.getElementById("followOtp")
-
-followButton.addEventListener("click",changefollowButtonColor);
-
-let flagfollowButton = 1;
-
-function followButtonActive(){
-    followButton.textContent = "Đang theo dõi";
-    followButton.style.filter = "brightness(100%)";
-    flagfollowButton=0;
-}
-
-function followButtonDisable(){
-    followButton.textContent = "Theo dõi";
-    followButton.style.filter = "brightness(50%)";
-    flagfollowButton=1;
-}
-
-function changefollowButtonColor(){
-    if (flagfollowButton)
-        followButtonActive();
-    else
-        followButtonDisable();
-    
-}
-
